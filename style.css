@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+*{margin: 0;}
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%;}
+
+.container{
+    clear:both;
+    overflow:auto;
+    color: #869E86;
+  }
+  
+  nav{float:right;}
+  
+.logo{float:left; margin-left: 30px; letter-spacing: .5rem;}
+.logo > h2 {
+    margin: 0; 
+    font-size: 40px;
+    font-weight: bolder; 
+    padding: 10px; 
+    font-family: 'Tangerine', cursive;
+    color:rgb(241, 106, 15);
+}
+
+.logo > h2 span{
+    color:rgb(230, 165, 44);
+}
+  
+  ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+  }
+  
+  ul li:hover{
+    color:orange;
+    
+  }
+
+
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg{background-image: url("pic1.png");}
+.t_center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  text-align:center;
+}
+h1{font-size:72px; margin-bottom:0;}
+h2{font-size:48px; margin:0;}
+.light_green{color: #869E86; font-weight: bold; text-shadow: 2px 4px 4px #F0FDF0;}
